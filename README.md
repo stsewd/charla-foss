@@ -6,7 +6,31 @@ Slides de la charla sobre software libre y de código abierto.
 
 - Slides creados con [reveal.js](https://github.com/hakimel/reveal.js).
 
-## Vista previa
+## Uso
+
+- Navega por los slides con <kbd>espacio</kbd>.
+- Entra al modo presentador con <kbd>s</kbd> para ver las notas.
+
+## Colaborar
+
+- Haz un fork del proyecto
+- Crea una nueva rama
+- Haz los cambios
+- ¡Envíame un pull request!
+
+### Estructura del proyecto
+
+| Archivo          | Descripción                                  |
+|------------------|----------------------------------------------|
+| `css/`           | Hojas de estilo usadas por reveal.js         |
+| `css/custom.css` | Estilos personalizados para esta diapositiva |
+| `img/`           | Imágenes usadas en los slides                |
+| `js/`            | Librería reveal.js                           |
+| `lib/`           | Librerías usadas por reveal.js               |
+| `plugin/`        | Plugins usados en el proyecto                |
+| `index.html`     | Contenido de los slides                      |
+
+### Visualización
 
 Para ver los slides basta con abrir el archivo `index.html` en tu navegador,
 pero recomiendo hacerlo desde un servidor web.
